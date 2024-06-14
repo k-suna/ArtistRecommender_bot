@@ -19,7 +19,7 @@ EXPOSE 8080
 ENV FLASK_APP app/app.py
 
 # アプリケーションを実行
-#CMD ["flask", "run", "--host=0.0.0.0"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8080"]
 
 # アプリケーションの実行コマンドを指定
-CMD ["python", "app.py"]
+#CMD ["python", "app.py"]
