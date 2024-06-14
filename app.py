@@ -77,7 +77,7 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    artist_name = event.message.text.strip()
+    artist_name = event.message.text
     
     # ユーザの入力が「開始」の場合
     if artist_name == "開始":
