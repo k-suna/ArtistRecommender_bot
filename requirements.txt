@@ -1,0 +1,6 @@
+Flask
+spotipy
+networkx
+pandas
+python-dotenv
+line-bot-sdk
